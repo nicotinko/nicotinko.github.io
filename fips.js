@@ -14,9 +14,9 @@ button.onclick = function () {
     
 };
 
-/*inputValue.oninput = function () { // При вводе данных в поле вызываем функцию.
+inputValue.oninput = function () { // При вводе данных в поле вызываем функцию.
     outputValue.value = parseLink();
-};*/
+};
 
 
 
