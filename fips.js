@@ -81,7 +81,7 @@ function parseLink() {
     index3 = s.indexOf("(", index2);
     var bulletin = s.slice(index2, index3);
     bulletin = bulletin.replace("No", "№");
-    s1 = name + ": пат. " + number + " Российская Федерация: " + MPK + "/ " + authors + "; № "
+    s1 = name.trim() + ": пат. " + number + " Российская Федерация. " + MPK + "/ " + authors + "; № "
         + zayavkaNumber + "; заявл. " + zayavkaDate + "; опубл. " + published + "," + bulletin;
 
     navigator.clipboard.writeText(s1)
