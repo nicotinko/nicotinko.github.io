@@ -1,6 +1,3 @@
-
-<html>
-
 <head>
     <meta charset="utf-8">
     <title>FIPS Extractor</title>
@@ -18,4 +15,3 @@
 style="width:600px; height:200px; color: rgb(255, 255, 255); font-size:xx-large; background-color: darkviolet;" >
 </body>
 <script src="fips.js"></script>
-</html>
